@@ -1,12 +1,12 @@
 .navbar{
     display: flex;
     justify-content: space-between;
-    width: 100%;
     height: 50px;
     align-items: center;
     border-bottom: 1px solid var(--border-light);
     padding-left: 20px;
     padding-right: 20px;
+    color: var(--font-light);
 
     .searchInput{
         display: flex;
@@ -42,6 +42,29 @@
             display: flex;
             align-items: center;
             column-gap: 0.2rem;
+
+            .count{
+                position: relative;
+
+                span{
+                    position: absolute;
+                    top: -1rem;
+                    right: 0;
+                    width: 15px;
+                    height: 15px;
+                    background-color: rgb(184, 2, 2);
+                    color: white;
+                    border-radius: 50%;
+                    text-align: center;
+                    vertical-align: center;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-weight: 500;
+                    font-size: 12px;
+                }
+            }
+
         }
     }
 }

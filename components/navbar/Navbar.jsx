@@ -28,11 +28,17 @@ const Navbar = () => {
             <div className="item">
                 <FullscreenExitIcon />
             </div>
-            <div className="item">
+            <div className="item notification">
                 <NotificationsNoneOutlinedIcon />
+                <div className="notification-count count">
+                    <span>1</span>
+                </div>
             </div>
-            <div className="item">
+            <div className="item chat">
                 <ChatBubbleOutlineOutlinedIcon  />
+                <div className="chat-count count">
+                    <span>2</span>
+                </div>
             </div>
             <div className="item">
                 <ListOutlinedIcon />

@@ -1,0 +1,50 @@
+.widget {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  padding: 1rem;
+  border-radius: 1rem;
+  row-gap: 0.8rem;
+}
+.widget .row1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.widget .row1 .title {
+  font-size: 1rem;
+  color: rgb(174, 174, 174);
+}
+.widget .row1 .percentage {
+  display: flex;
+  justify-content: space-between;
+}
+.widget .row1 .percentage.positive {
+  color: var(--positive-return);
+}
+.widget .row1 .percentage.negative {
+  color: var(--negative-return);
+}
+.widget .row1 .percentage p {
+  font-size: 1.1rem;
+}
+.widget .row2 {
+  font-size: 2.2rem;
+  justify-content: space-between;
+}
+.widget .row3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.widget .row3 p {
+  border-bottom: 1px solid rgb(187, 187, 187);
+  font-size: 0.9rem;
+}
+.widget .row3 .icon {
+  border-radius: 4px;
+  padding: 4px;
+  font-size: 1.4rem;
+}
